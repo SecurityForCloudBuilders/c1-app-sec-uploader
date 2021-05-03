@@ -1,4 +1,4 @@
-# c1-app-sec-uploader
+# C1-AppSec-MalwareTest
 
 Este aplicativo de demonstração para Cloud One Application Security cria um front-end baseado em Apache PHP permitindo o upload de tipos de arquivos. É para simular recursos de upload de arquivos de aplicativos da web do mundo real.
 
