@@ -1,20 +1,25 @@
 # c1-app-sec-uploader
 
-This demo app for Cloud One Application Security create an Apache PHP based front end allowing to upload kind of files. It is to simulate file uploading capabilities from real world web applications.
+Este aplicativo de demonstração para Cloud One Application Security cria um front-end baseado em Apache PHP permitindo o upload de tipos de arquivos. É para simular recursos de upload de arquivos de aplicativos da web do mundo real.
 
-Application Security integration done via the provided Dockerfile.
+Integração de segurança do aplicativo feita por meio do Dockerfile fornecido.
 
-## Usage
+# Antes de tudo é necessário criar uma conta na plataforma Cloud One (free)
 
-First, clone the repo
+Criando a conta http://cloudone.trendmicro.com
 
-Then build and run the container
+# Criando a imagem
+
+Primeiro, clonar o repositório.
+
+Em seguida, crie e execute o contêiner
 
 ```sh
-# Build the image
+# Criando a imagem
 docker build -t uploader .
 
-# Run the container
+# Executando o container
+
 docker run \
   --rm -p 80:80 \
   --name uploader \
@@ -23,10 +28,10 @@ docker run \
   uploader
 ```
 
-The upload app is accessible on port 80.
+O aplicativo de upload pode ser acessado na porta 80.
 
-Finally, upload malicious files.
+Por fim, faça upload de arquivos maliciosos.
 
-## Jenkins
+# Jenkins
 
-An example Jenkins pipeline is provided to integrate this app to your Jenkins instance.
+Um exemplo de pipeline do Jenkins é fornecido para integrar este aplicativo à sua instância do Jenkins.
