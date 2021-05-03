@@ -31,7 +31,7 @@ docker run \
 
 O aplicativo de upload pode ser acessado na porta 80.
 
-Por fim, faça upload de arquivos maliciosos.
+Por fim, faça upload de arquivo malicioso. Pode utilizar o eicar https://www.eicar.org/?page_id=3950
 
 # Jenkins
 
