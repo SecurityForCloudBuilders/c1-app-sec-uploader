@@ -4,9 +4,10 @@ Este aplicativo de demonstração para Cloud One Application Security cria um fr
 
 Integração de segurança do aplicativo feita por meio do Dockerfile fornecido.
 
-# Antes de tudo é necessário criar uma conta na plataforma Cloud One (free)
+# Pré-req
 
-Criando a conta http://cloudone.trendmicro.com
+* Conta no Cloud One (free) http://cloudone.trendmicro.com
+* Acessar o Aplication Security e criar um grupo (usaremos a key e a secret)
 
 # Criando a imagem
 
